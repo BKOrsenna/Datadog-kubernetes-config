@@ -340,7 +340,7 @@ datadog:
 
       init_config: {}
       instances:
-        - {"prometheus_url": "http://prometheus-kube-prometheus-prometheus.monitoring.svc.cluster.local:9090/metrics"} # MARCHE AVEC kube-state-metrics
+        - {"prometheus_url": "http://prometheus-kube-prometheus-prometheus.monitoring.svc.cluster.local:9090/metrics"} 
 
   # datadog.checksd -- Provide additional custom checks as python code
   ## Each key becomes a file in /checks.d
